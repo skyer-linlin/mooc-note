@@ -41,3 +41,23 @@ Swap:             0           0           0
 
 # total = used + free + buff/cache
 ```
+
+## df
+
+查看磁盘分区上可使用的磁盘空间，默认显示 KB
+
+如：`df -h`使用-h 选项以 KB 以上的单位来显示，可读性高
+
+## vmstat
+
+查看系统整体运行状态
+
+```bash
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 4  0      0 119388  30284 701764    0    0     1     6    0    0  1  0 99  0  0
+```
+
+## op
+
+
